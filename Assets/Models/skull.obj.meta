@@ -1,0 +1,234 @@
+fileFormatVersion: 2
+guid: ec142213c6885d44e8efc54bf0a613af
+timeCreated: 1501126561
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Plane003
+    100002: //RootNode
+    100004: skulltop
+    100006: Tooth001
+    100008: Tooth002
+    100010: Tooth003
+    100012: Tooth004
+    100014: Tooth005
+    100016: Tooth006
+    100018: Tooth007
+    100020: Tooth008
+    100022: Tooth009
+    100024: Tooth010
+    100026: Tooth011
+    100028: Tooth012
+    100030: Tooth013
+    100032: Tooth014
+    100034: Tooth015
+    100036: Tooth016
+    100038: Tooth017
+    100040: Tooth018
+    100042: Tooth019
+    100044: Tooth020
+    100046: Tooth021
+    100048: Tooth022
+    100050: Tooth023
+    100052: Tooth024
+    100054: Tooth025
+    100056: Tooth026
+    100058: Tooth027
+    100060: Tooth028
+    400000: Plane003
+    400002: //RootNode
+    400004: skulltop
+    400006: Tooth001
+    400008: Tooth002
+    400010: Tooth003
+    400012: Tooth004
+    400014: Tooth005
+    400016: Tooth006
+    400018: Tooth007
+    400020: Tooth008
+    400022: Tooth009
+    400024: Tooth010
+    400026: Tooth011
+    400028: Tooth012
+    400030: Tooth013
+    400032: Tooth014
+    400034: Tooth015
+    400036: Tooth016
+    400038: Tooth017
+    400040: Tooth018
+    400042: Tooth019
+    400044: Tooth020
+    400046: Tooth021
+    400048: Tooth022
+    400050: Tooth023
+    400052: Tooth024
+    400054: Tooth025
+    400056: Tooth026
+    400058: Tooth027
+    400060: Tooth028
+    2300000: Plane003
+    2300002: skulltop
+    2300004: Tooth001
+    2300006: Tooth002
+    2300008: Tooth003
+    2300010: Tooth004
+    2300012: Tooth005
+    2300014: Tooth006
+    2300016: Tooth007
+    2300018: Tooth008
+    2300020: Tooth009
+    2300022: Tooth010
+    2300024: Tooth011
+    2300026: Tooth012
+    2300028: Tooth013
+    2300030: Tooth014
+    2300032: Tooth015
+    2300034: Tooth016
+    2300036: Tooth017
+    2300038: Tooth018
+    2300040: Tooth019
+    2300042: Tooth020
+    2300044: Tooth021
+    2300046: Tooth022
+    2300048: Tooth023
+    2300050: Tooth024
+    2300052: Tooth025
+    2300054: Tooth026
+    2300056: Tooth027
+    2300058: Tooth028
+    3300000: Plane003
+    3300002: skulltop
+    3300004: Tooth001
+    3300006: Tooth002
+    3300008: Tooth003
+    3300010: Tooth004
+    3300012: Tooth005
+    3300014: Tooth006
+    3300016: Tooth007
+    3300018: Tooth008
+    3300020: Tooth009
+    3300022: Tooth010
+    3300024: Tooth011
+    3300026: Tooth012
+    3300028: Tooth013
+    3300030: Tooth014
+    3300032: Tooth015
+    3300034: Tooth016
+    3300036: Tooth017
+    3300038: Tooth018
+    3300040: Tooth019
+    3300042: Tooth020
+    3300044: Tooth021
+    3300046: Tooth022
+    3300048: Tooth023
+    3300050: Tooth024
+    3300052: Tooth025
+    3300054: Tooth026
+    3300056: Tooth027
+    3300058: Tooth028
+    4300000: Plane003
+    4300002: skulltop
+    4300004: Tooth001
+    4300006: Tooth002
+    4300008: Tooth003
+    4300010: Tooth004
+    4300012: Tooth005
+    4300014: Tooth006
+    4300016: Tooth007
+    4300018: Tooth008
+    4300020: Tooth009
+    4300022: Tooth010
+    4300024: Tooth011
+    4300026: Tooth012
+    4300028: Tooth013
+    4300030: Tooth014
+    4300032: Tooth015
+    4300034: Tooth016
+    4300036: Tooth017
+    4300038: Tooth018
+    4300040: Tooth019
+    4300042: Tooth020
+    4300044: Tooth021
+    4300046: Tooth022
+    4300048: Tooth023
+    4300050: Tooth024
+    4300052: Tooth025
+    4300054: Tooth026
+    4300056: Tooth027
+    4300058: Tooth028
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
