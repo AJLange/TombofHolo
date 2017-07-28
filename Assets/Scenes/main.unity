@@ -5441,6 +5441,80 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1244997582}
   m_Mesh: {fileID: 4300042, guid: 82034e47dcff0ba4a8c5f5467212d2b0, type: 3}
+--- !u!1001 &1255605214
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 483.25534
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 11.196606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 607.20776
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4249461006278538, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114601781698115878, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+      propertyPath: Keywords.Array.data[0].Response.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 114390576941901442, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+    - target: {fileID: 114601781698115878, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+      propertyPath: Keywords.Array.data[0].Response.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SendMessageToFocusedObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 114601781698115878, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+      propertyPath: Keywords.Array.data[1].Response.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 114390576941901442, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+    - target: {fileID: 114601781698115878, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+      propertyPath: Keywords.Array.data[1].Response.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SendMessageToFocusedObject
+      objectReference: {fileID: 0}
+    - target: {fileID: 114601781698115878, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114614914995369050, guid: bd27676592e18834cae75dffa805d6ff,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: bd27676592e18834cae75dffa805d6ff, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1275163949
 GameObject:
   m_ObjectHideFlags: 0
@@ -6172,24 +6246,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1384810724}
   m_Mesh: {fileID: 4300142, guid: d6196bfec81700f4f9409a0ea04bf874, type: 3}
---- !u!1 &1407660606
+--- !u!1 &1407660606 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1407660610}
-  - component: {fileID: 1407660609}
-  - component: {fileID: 1407660608}
-  - component: {fileID: 1407660607}
-  m_Layer: 0
-  m_Name: FocusedObjectKeywordManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_PrefabParentObject: {fileID: 1288144822217710, guid: bd27676592e18834cae75dffa805d6ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 1255605214}
 --- !u!114 &1407660607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6198,86 +6259,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 1407660606}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7d6513c2cdf97f409654a2a4114d9b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Keywords:
-  - Keyword: Enlarge
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1407660608}
-          m_MethodName: SendMessageToFocusedObject
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-  - Keyword: Reduce
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1407660608}
-          m_MethodName: SendMessageToFocusedObject
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-        PublicKeyToken=null
-  IsGlobalListener: 0
---- !u!114 &1407660608
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1407660606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7f9268bd6c6d8e448af2fdf0fa33050, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1407660609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1407660606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c62fd7a55ba7458499b69cae18f83806, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f2795b3e072e1745a4f8c670d64284f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   RecognizerStart: 0
-  Keywords:
+  KeywordsAndResponses:
   - Keyword: Enlarge
     KeyCode: 0
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1407660608}
+          m_MethodName: SendMessageToFocusedObject
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: OnEnlarge
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
   - Keyword: Reduce
     KeyCode: 0
---- !u!4 &1407660610
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1407660606}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 483.25534, y: 11.196606, z: 607.20776}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1407660608}
+          m_MethodName: SendMessageToFocusedObject
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: OnReduce
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+--- !u!114 &1407660608 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114390576941901442, guid: bd27676592e18834cae75dffa805d6ff,
+    type: 2}
+  m_PrefabInternal: {fileID: 1255605214}
+  m_Script: {fileID: 11500000, guid: d7f9268bd6c6d8e448af2fdf0fa33050, type: 3}
 --- !u!1001 &1411602486
 Prefab:
   m_ObjectHideFlags: 0
